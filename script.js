@@ -1,1 +1,1 @@
-alert("Bienvenue dans le site EVENT !");
+alert("Bienvenue dans 🌸Red Chill🥭 !\nLe site est toujours en bêta test !");
