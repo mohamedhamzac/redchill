@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 50px;
+}
