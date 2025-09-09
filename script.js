@@ -1,0 +1,1 @@
+alert("Bienvenue dans le site EVENT !");
