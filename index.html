@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Red Chill</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Red Chill - Tips Jeux</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- favicon si tu as un logo.png -->
+  <link rel="icon" type="image/png" href="logo.png" />
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <ul class="nav">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="restaurant.html">Restaurant Tycoon 3</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav class="nav-left">
+      <button class="nav-btn active" data-target="restaurant">Restaurant Tycoon 3</button>
+      <button class="nav-btn" data-target="steal">Steal A Brainrot</button>
+      <button class="nav-btn" data-target="garden">Grow A Garden</button>
+      <button class="nav-btn" data-target="survive">Survivre 99 nuits</button>
+    </nav>
+    <div class="brand">
+      <img src="logo.png" alt="Red Chill" class="logo" onerror="this.style.display='none'">
+      <h1>Red Chill</h1>
+    </div>
+  </header>
 
-  <h1>🌸Red Chill🍹</h1>
-  <h2>Bienvenue sur le site web de Red Chill</h2>
-  <p>Nous vous rappelons que le site est en bêta, des bugs/défauts peuvent survenir, si vous en voyez n'hésitez pas à nous envoyer un message par ticket dans notre serveur communautaire.</p>
+  <main>
+    <section id="restaurant" class="page active">
+      <h2>🍽️ Restaurant Tycoon 3 — Tips</h2>
+      <ul>
+        <li><strong>Optimise la place :</strong> utilise des tables compactes pour maximiser les clients.</li>
+        <li><strong>Améliore les chefs :</strong> plus vite la cuisine, plus de commandes traitées.</li>
+        <li><strong>Menu équilibré :</strong> mélange plats rapides et plats chers pour le profit.</li>
+        <li><strong>Décoration :</strong> augmente la satisfaction et attire plus de clients VIP.</li>
+      </ul>
+    </section>
+
+    <section id="steal" class="page">
+      <h2>🧠 Steal A Brainrot — Tips</h2>
+      <ul>
+        <li><strong>Planifie tes vols :</strong> regarde les chemins de patrouille avant d'agir.</li>
+        <li><strong>Camouflage :</strong> évite d'être vu — la discrétion rapporte.</li>
+        <li><strong>Upgrade ton stuff :</strong> outils plus efficaces = tâches plus rapides.</li>
+        <li><strong>Joue en équipe :</strong> coordonne-toi pour distraire et voler sans se faire choper.</li>
+      </ul>
+    </section>
+
+    <section id="garden" class="page">
+      <h2>🌱 Grow A Garden — Tips</h2>
+      <ul>
+        <li><strong>Arrosage régulier :</strong> surveille l'humidité pour éviter la perte de plantes.</li>
+        <li><strong>Rotation des cultures :</strong> change les plantes pour garder le sol fertile.</li>
+        <li><strong>Investis dans les upgrades :</strong> engrais et outils accélèrent la croissance.</li>
+        <li><strong>Vends intelligemment :</strong> garde quelques plantes rares pour les bons prix.</li>
+      </ul>
+    </section>
+
+    <section id="survive" class="page">
+      <h2>🌲 Survivre 99 nuits — Tips</h2>
+      <ul>
+        <li><strong>Priorité abri :</strong> fais un abri solide avant la nuit 1.</li>
+        <li><strong>Ressources essentielles :</strong> bois, pierre, nourriture — stocke en grande quantité.</li>
+        <li><strong>Économie d'énergie :</strong> évite les actions à risque la nuit sans équipement.</li>
+        <li><strong>Apprends les patterns :</strong> ennemis et météo suivent souvent des cycles — profite-en.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Red Chill — Tips rapides pour tes jeux</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
